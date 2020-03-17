@@ -7,4 +7,3 @@ WORKDIR /app
 COPY ./docker_entrypoint.sh /
 
 ENTRYPOINT ["/docker_entrypoint.sh"]
-
